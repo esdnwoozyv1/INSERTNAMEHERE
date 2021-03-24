@@ -4,7 +4,7 @@
 #
 #
 #
-printf "Welcome to ###(InsertNameHere)###\n"
+printf '\e[1;34m\e[m' "Welcome to ###(InsertNameHere)###\n"
 printf  "###(InsertNameHere)### is an automation script that performs Initial Enumeration..."
 read -p "Please Enter an IP Address or Range: " ip
 printf "\nScanning $ip commencing...\n"
